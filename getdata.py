@@ -1,6 +1,6 @@
-import cv2
-from cvzone.HandTrackingModule import HandDetector 
-import numpy as np
+import cv2  #pip install cv2
+from cvzone.HandTrackingModule import HandDetector #pip install mediapipe
+import numpy as np #pip install numpy
 import math
 import time
 
