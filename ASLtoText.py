@@ -1,6 +1,5 @@
 import cv2
 from cvzone.HandTrackingModule import HandDetector
-from cvzone.ClassificationModule import Classifier 
 import numpy as np
 import math
 from keras.models import load_model
@@ -9,7 +8,6 @@ import speak
 
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
-# classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
 offset = 20
 imgSize = 300
 folder = "Data"
